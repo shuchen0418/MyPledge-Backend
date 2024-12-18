@@ -1,1 +1,13 @@
 [mysql]
+address ="localhost"
+port = 3306
+user = "root"
+password = "root"
+database = "MyPledge"
+
+[redis]
+address = "localhost"
+port = 6379
+minIdleConns = 0
+maxOpenConns = 0
+poolTimeout = 10
